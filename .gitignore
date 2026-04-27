@@ -1,0 +1,16 @@
+# Backend
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+*.war
+.idea/
+*.iml
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+
+# Environment
+.env.local
+.env.production.local

@@ -1,0 +1,12 @@
+Vurdér den følgende praktikrapport ud fra systemprompten og dens rubric.
+
+## Instruktioner
+- Bedøm KUN ud fra det, der faktisk står i rapporten
+- Vær konkret og specifik – undgå generiske kommentarer
+- Tildel et level (low/medium/high) per kriterium ud fra rubricen
+- Hvis formelle krav (omfang, kvittering m.v.) ikke kan bekræftes fra teksten, angiv det i feedback-feltet
+- Returner KUN valid JSON som beskrevet i systemprompten – ingen tekst før eller efter
+
+## Praktikrapport til vurdering
+
+{{REPORT_TEXT}}
