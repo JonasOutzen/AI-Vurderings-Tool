@@ -1,0 +1,1 @@
+Jeg skal vurdere en praktikrapport. Den første ligger i @student1.md  Jeg har brug for en rubric til vurderingen og den skal baseret på @krav-til-rapport.md og den trækker på @dare-share-care.md og @laeringsmaal.md. Lav en sytemprompt og gem den i /prompts og en userprompt til at lave den første vurdering og gem i /prompts
