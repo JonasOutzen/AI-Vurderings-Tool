@@ -49,6 +49,64 @@ header p {
   color: #444;
 }
 
+/* --- File upload --- */
+
+.upload-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border: 2px dashed #c5cde8;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  background: #f8f9ff;
+}
+
+.upload-zone:hover {
+  border-color: #4361ee;
+  background: #f0f4ff;
+}
+
+.upload-icon {
+  font-size: 32px;
+  color: #4361ee;
+  line-height: 1;
+}
+
+.upload-label {
+  font-weight: 600;
+  font-size: 15px;
+  color: #333;
+}
+
+.upload-hint {
+  font-size: 13px;
+  color: #888;
+}
+
+/* --- Divider --- */
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #e5e7eb;
+}
+
 textarea {
   width: 100%;
   padding: 12px;
